@@ -1,0 +1,11 @@
+; Snippets Tags
+% pwsh, powershell, env
+
+# Set User Environment Variables
+[Environment]::SetEnvironmentVariable("<VAR>", "<value>", "User")
+
+# Set Global Environment Variables
+[Environment]::SetEnvironmentVariable("<VAR>", "<value>", "Machine")
+
+# Set Process Environment Variables
+[Environment]::SetEnvironmentVariable("<VAR>", "<value>", "Process")

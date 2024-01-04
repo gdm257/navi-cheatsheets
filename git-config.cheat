@@ -1,0 +1,12 @@
+; Snippets tags
+% git, config
+
+# set repo user email
+git config --local user.email "<email>"
+
+# set repo username
+git config --local user.name "<user>"
+
+# Enable commit signatures
+git config --local commit.gpgsign true
+git config --local user.signingkey <signingkey>

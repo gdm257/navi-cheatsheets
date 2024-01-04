@@ -1,0 +1,12 @@
+; Snippets tags
+% bash, env
+
+# HTTP(S) proxy to URL
+export http_proxy="<proxy>"
+export https_proxy="<proxy>"
+export all_proxy="<proxy>"
+
+# HTTP(S) proxy to Clash for Windows
+export http_proxy="http://127.0.0.1:7890"
+export https_proxy="http://127.0.0.1:7890"
+export all_proxy="http://127.0.0.1:7890"

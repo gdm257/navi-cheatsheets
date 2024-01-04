@@ -1,0 +1,17 @@
+; Snippets tags
+% file, fzf
+
+# select one line
+<cmd> | fzf
+
+$ cmd: echo "ls"
+
+
+# cat selected file
+cat $(fzf)
+
+# cd into selected directory (fd)
+cd $(fd .+ -t d | fzf)
+
+# cd into selected directory
+cd $(find . -type d | fzf)

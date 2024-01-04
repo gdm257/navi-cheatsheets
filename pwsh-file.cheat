@@ -1,0 +1,5 @@
+; Snippets Tags
+% pwsh, powershell, file
+
+# Create Directory Soft Link
+New-Item -ItemType SymbolicLink -Target <src> -Path <dst>

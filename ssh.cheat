@@ -1,0 +1,5 @@
+; Snippets tags
+% ssh
+
+# SSH login with private key
+ssh -i "<private-key>" -p <port> "<user>@<host>"

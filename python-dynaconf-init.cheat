@@ -1,0 +1,10 @@
+% python, dynaconf, init, django
+
+# Append initialization of dynaconf to settings.py
+dynaconf init --django path/to/settings.py
+
+
+% python, dynaconf, init
+
+# Append initialization of dynaconf to settings.py
+dynaconf init -f "{yaml|toml|py|...}"

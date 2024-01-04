@@ -1,0 +1,4 @@
+% python, profiler, pyinstrument
+
+# profile script
+pyinstrument scriptfile args...
