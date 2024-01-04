@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "cmd*.cheat": "bat",
+        "pwsh*.cheat": "powershell",
+        "powershell*.cheat": "powershell",
+        "*.cheat": "shellscript",
+    }
+}
