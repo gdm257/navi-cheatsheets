@@ -1,0 +1,13 @@
+% git, remote, url
+
+# Fetch & Pull
+git remote set-url "<remote>" "<url>"
+
+# Push
+git remote set-url --push "<remote>" "<url>"
+
+# GitHub via https
+git remote set-url "<remote>" "https://github.com/<user>/<repo>.git"
+
+# GitHub via ssh
+git remote set-url "<remote>" "ssh://git@github.com/<user>/<repo>.git"
