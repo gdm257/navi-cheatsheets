@@ -7,6 +7,15 @@ git config --local user.email "<email>"
 # set repo username
 git config --local user.name "<user>"
 
-# Enable commit signatures
+# commit signatures
 git config --local commit.gpgsign true
 git config --local user.signingkey <signingkey>
+
+# auto setup remote upstream
+git config --global push.autosetupremote "<bool:true/false>"
+
+# pull fast-forward ONLY
+git config --global pull.ff only
+
+# conflict style
+git config --global merge.conflictstyle "zdiff3"
